@@ -1,0 +1,13 @@
+# Copy this to config.toml (or let `rhizo init` write it for you) and fill in your values.
+# config.toml is gitignored — it's machine-specific, not checked in.
+
+[vault]
+path = "~/vaults/personal-brain"
+
+[owner]
+name = "Your Name"
+emails = ["you@example.com"]
+
+[connectors]
+gmail = true
+calendar = true
